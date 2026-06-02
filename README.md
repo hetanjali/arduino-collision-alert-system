@@ -16,7 +16,7 @@ Automation & Embedded Systems domains.
 
 ---
 
-## 🔴 Project 1 — LED Blink
+## 🔴 Project 1 — LED Blink {Click Below To See}
 [![Tinkercad](https://img.shields.io/badge/Tinkercad-Simulation-blue)](https://www.tinkercad.com/things/fNqdVQRc9MS-led-blinking?sharecode=Q-_cG6lBwsmbM77yvIHMICEctSy8hUwUz1dpgYRzS2g)
 
 ### Circuit
@@ -34,7 +34,7 @@ concept for all digital output control in embedded systems.
 
 ---
 
-## 🚨 Project 2 — Collision Awareness & Safety Alert System
+## 🚨 Project 2 — Collision Awareness & Safety Alert System {{Click Below To See}}
 [![Tinkercad](https://img.shields.io/badge/Tinkercad-Simulation-blue)](https://www.tinkercad.com/things/kNo4UXLtI3Q-project-2-collision-awareness-amp-safety-alert-system)
 
 ### Circuit
