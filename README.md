@@ -118,6 +118,33 @@ This upgrade simulates a real HMI (Human Machine Interface)
 panel used in factories — operators can see live sensor 
 readings without needing a laptop connected.
 
+## 🐍 Project 4 — Python Data Logger
+
+### Components
+- Python 3
+- Libraries: pyserial, pandas, matplotlib
+
+### What it does
+Reads distance sensor data and logs it to a CSV file 
+with timestamps. Generates a real-time graph showing 
+distance over time with colour-coded alert zones.
+
+### How to run
+```bash
+cd 04-python-logger
+pip3 install -r requirements.txt
+python3 simulate_arduino.py
+```
+
+### Output
+- `sensor_log.csv` — timestamped data log
+- `distance_graph.png` — visual graph of readings
+
+### Industrial Application
+This simulates a SCADA (Supervisory Control and Data 
+Acquisition) system — used in factories to monitor and 
+log sensor data for analysis and safety compliance.
+
 ## 👩‍💻 Author
 **Hetanjali Vaghela** — Robotics & Automation Engineering  
 3rd Year | Embedded Systems Enthusiast
