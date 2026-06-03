@@ -87,6 +87,37 @@ This system simulates the core logic used in:
 
 ---
 
+## 📺 Project 3 — LCD Distance Display
+[![Tinkercad](https://img.shields.io/badge/Tinkercad-Simulation-blue)](https://www.tinkercad.com/things/2igmJL7oHZp-03-lcd-display
+)
+
+### Circuit
+![LCD Circuit](03-lcd-display/circuit_diagram.png)
+
+### Components
+- Arduino Uno R3
+- HC-SR04 Ultrasonic Distance Sensor
+- 16x2 LCD Display
+- Potentiometer (brightness control)
+- Piezo Buzzer
+
+### New Concepts Added
+- LCD interfacing with LiquidCrystal library
+- Multi-line display management
+- Real-time sensor data visualization
+- Status text based on threshold zones
+
+### How it works
+Distance is measured every loop and displayed live on the 
+LCD screen. Row 1 shows the distance in cm. Row 2 shows 
+the alert status — SAFE, WARNING, DANGER, or CRITICAL. 
+Buzzer beeps faster as object gets closer.
+
+### Industrial Application
+This upgrade simulates a real HMI (Human Machine Interface) 
+panel used in factories — operators can see live sensor 
+readings without needing a laptop connected.
+
 ## 👩‍💻 Author
 **Hetanjali Vaghela** — Robotics & Automation Engineering  
 3rd Year | Embedded Systems Enthusiast
