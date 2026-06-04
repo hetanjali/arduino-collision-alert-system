@@ -1,3 +1,7 @@
+> 📌 Note: Projects 1–4 simulated on Tinkercad. 
+> Projects 5 simulated on Wokwi (better support for advanced sensors).
+
+
 # 🚨 Arduino Collision Awareness & Safety Alert System
 
 A progressive embedded systems project built on Arduino Uno, 
@@ -144,6 +148,35 @@ python3 simulate_arduino.py
 This simulates a SCADA (Supervisory Control and Data 
 Acquisition) system — used in factories to monitor and 
 log sensor data for analysis and safety compliance.
+
+## 🤖 Project 5 — IMU Orientation Sensing (MPU6050)
+[![Wokwi](https://img.shields.io/badge/Wokwi-Simulation-green)](https://wokwi.com/projects/465904393310015489)
+
+### Circuit
+![MPU6050 Circuit](05-MPU6050+arduino/cercuit_diagram.png)
+
+### Components
+- Arduino Uno R3
+- MPU6050 IMU Sensor (Accelerometer + Gyroscope)
+
+### Wiring
+| MPU6050 Pin | Arduino Pin |
+|-------------|-------------|
+| VCC | 5V |
+| GND | GND |
+| SCL | A5 |
+| SDA | A4 |
+| AD0 | GND (I2C address → 0x68) |
+
+### How it works
+The MPU6050 is a 6-axis IMU sensor that combines a 3-axis 
+accelerometer and a 3-axis gyroscope. Raw data is read via 
+I2C protocol and processed using a complementary filter —
+96% gyroscope data for smooth short-term tracking, 4% 
+accelerometer data for long-term drift correction. The 
+result is a stable, real-time orientation angle on X and Y axes.
+
+
 
 ## 👩‍💻 Author
 **Hetanjali Vaghela** — Robotics & Automation Engineering  
