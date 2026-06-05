@@ -1,5 +1,5 @@
 > 📌 Note: Projects 1–4 simulated on Tinkercad. 
-> Projects 5 simulated on Wokwi (better support for advanced sensors).
+> Projects 5-7 simulated on Wokwi (better support for advanced sensors).
 
 
 # 🚨 Arduino Collision Awareness & Safety Alert System
@@ -176,6 +176,38 @@ I2C protocol and processed using a complementary filter —
 accelerometer data for long-term drift correction. The 
 result is a stable, real-time orientation angle on X and Y axes.
 
+## 🌡️ Project 6 — Temperature & Humidity Monitor
+
+[![Wokwi](https://img.shields.io/badge/Wokwi-Simulation-green)](https://wokwi.com/projects/465965796698468353)
+
+### Circuit
+![DHT22 CIRCUIT](06-DHT22-temp-humidity/circuit_diagram.png)
+
+### Components
+- Arduino Uno R3
+- DHT22 Temperature & Humidity Sensor
+
+### How it works
+DHT22 sensor reads temperature and humidity every 2 seconds.
+Values are printed to Serial Monitor with alerts triggered
+when temperature exceeds 35°C or humidity exceeds 80%.
+
+### Alert Thresholds
+| Parameter | Safe | Alert |
+|-----------|------|-------|
+| Temperature | < 35°C | > 35°C |
+| Humidity | < 80% | > 80% |
+
+### Industrial Application
+Used in server rooms, warehouses, hospitals and food storage
+facilities for environmental monitoring and compliance.
+
+### Concepts Practiced
+- DHT22 sensor interfacing
+- Float data types for decimal readings
+- Library usage (#include DHT.h)
+- Threshold-based alert system
+- isnan() error checking
 
 
 ## 👩‍💻 Author
