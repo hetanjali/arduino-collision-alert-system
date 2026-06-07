@@ -209,6 +209,8 @@ facilities for environmental monitoring and compliance.
 - Threshold-based alert system
 - isnan() error checking
 
+## 📺 Project 7 - upcoming...
+
 
 ## 👩‍💻 Author
 **Hetanjali Vaghela** — Robotics & Automation Engineering  
